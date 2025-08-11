@@ -236,7 +236,7 @@ const Products = () => {
                 name: 'Fresh Flowers',
                 set: 'Set A',
                 price: 380.00,
-                image: '/src/assets/fresh/red.jpg',
+                image: '/public/assets/fresh/red.jpg',
                 category: 'Fresh Flowers'
               }}
               productId="fresh-a"
@@ -249,7 +249,7 @@ const Products = () => {
                 name: 'Fresh Flowers',
                 set: 'Set B',
                 price: 350.00,
-                image: '/src/assets/fresh/yellow.jpg',
+                image: '/public/assets/fresh/yellow.jpg',
                 category: 'Fresh Flowers'
               }}
               productId="fresh-b"
@@ -265,7 +265,7 @@ const Products = () => {
                 name: 'Mixed Flowers',
                 set: 'Set A',
                 price: 350.00,
-                image: '/src/assets/mixed/pink.jpg',
+                image: '/public/assets/mixed/pink.jpg',
                 category: 'Mixed Flowers'
               }}
               productId="mixed-a"
@@ -278,7 +278,7 @@ const Products = () => {
                 name: 'Mixed Flowers',
                 set: 'Set B',
                 price: 400.00,
-                image: '/src/assets/mixed/bluee.jpg',
+                image: '/public/assets/mixed/bluee.jpg',
                 category: 'Mixed Flowers'
               }}
               productId="mixed-b"
@@ -291,7 +291,7 @@ const Products = () => {
                 name: 'Mixed Flowers',
                 set: 'Set C',
                 price: 300.00,
-                image: '/src/assets/mixed/green.jpg',
+                image: '/public/assets/mixed/green.jpg',
                 category: 'Mixed Flowers'
               }}
               productId="mixed-c"
@@ -307,7 +307,7 @@ const Products = () => {
                 name: 'Crochet Flowers',
                 set: 'Set A',
                 price: 750.00,
-                image: '/src/assets/crochet/real.jpg',
+                image: '/public/assets/crochet/real.jpg',
                 category: 'Crochet Flowers'
               }}
               productId="crochet-a"

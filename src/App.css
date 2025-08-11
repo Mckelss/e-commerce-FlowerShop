@@ -182,7 +182,7 @@ button {
 
 /* Hero Banner */
 .about {
-  background: url('/src/assets/flowers/a.jpg') center/cover no-repeat;
+  background: url('/public/assets/flowers/a.jpg') center/cover no-repeat;
   height: 300px;
   display: flex;
   align-items: center;
@@ -1514,7 +1514,7 @@ header nav {
 }
 
 .hero {
-  background-image:  url('/src/assets/flowers/e.jpg');
+  background-image:  url('/public/assets/flowers/e.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
