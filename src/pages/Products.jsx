@@ -141,14 +141,14 @@ const Products = () => {
   const CustomCrochetCard = () => (
     <div className="product-card">
       <div className="product-image-container">
-        <img src="./src/assets/crochet/butterfly.jpg" alt="Customized Crochet" />
+        <img src="./public/assets/crochet/butterfly.jpg" alt="Customized Crochet" />
         <button 
           className={`favorite-btn ${isFavorite('crochet-custom') ? 'favorited' : ''}`}
           onClick={() => handleFavoriteToggle({
             name: 'Crochet Flowers',
             set: 'Customized',
             price: 'Price may vary',
-            image: '/src/assets/crochet/butterfly.jpg',
+            image: '/public/assets/crochet/butterfly.jpg',
             category: 'Crochet Flowers'
           }, 'crochet-custom')}
           title={isFavorite('crochet-custom') ? 'Remove from favorites' : 'Add to favorites'}
