@@ -141,14 +141,14 @@ const Products = () => {
   const CustomCrochetCard = () => (
     <div className="product-card">
       <div className="product-image-container">
-        <img src="./public/assets/crochet/butterfly.jpg" alt="Customized Crochet" />
+        <img src= "/assets/crochet/butterfly.jpg" alt="Customized Crochet" />
         <button 
           className={`favorite-btn ${isFavorite('crochet-custom') ? 'favorited' : ''}`}
           onClick={() => handleFavoriteToggle({
             name: 'Crochet Flowers',
             set: 'Customized',
             price: 'Price may vary',
-            image: '/public/assets/crochet/butterfly.jpg',
+            image: '/assets/crochet/butterfly.jpg',
             category: 'Crochet Flowers'
           }, 'crochet-custom')}
           title={isFavorite('crochet-custom') ? 'Remove from favorites' : 'Add to favorites'}
@@ -206,7 +206,7 @@ const Products = () => {
                   name: 'Crochet Flowers',
                   set: 'Customized',
                   price: parseFloat(customPrice),
-                  image: '/src/assets/crochet/butterfly.jpg',
+                  image: '/assets/crochet/butterfly.jpg',
                   category: 'Crochet Flowers'
                 }, 'crochet-custom');
               } else if (customPrice !== null) {
@@ -236,7 +236,7 @@ const Products = () => {
                 name: 'Fresh Flowers',
                 set: 'Set A',
                 price: 380.00,
-                image: '/public/assets/fresh/red.jpg',
+                image: '/assets/fresh/red.jpg',
                 category: 'Fresh Flowers'
               }}
               productId="fresh-a"
@@ -249,7 +249,7 @@ const Products = () => {
                 name: 'Fresh Flowers',
                 set: 'Set B',
                 price: 350.00,
-                image: '/public/assets/fresh/yellow.jpg',
+                image: '/assets/fresh/yellow.jpg',
                 category: 'Fresh Flowers'
               }}
               productId="fresh-b"
@@ -265,7 +265,7 @@ const Products = () => {
                 name: 'Mixed Flowers',
                 set: 'Set A',
                 price: 350.00,
-                image: '/public/assets/mixed/pink.jpg',
+                image: '/assets/mixed/pink.jpg',
                 category: 'Mixed Flowers'
               }}
               productId="mixed-a"
@@ -278,7 +278,7 @@ const Products = () => {
                 name: 'Mixed Flowers',
                 set: 'Set B',
                 price: 400.00,
-                image: '/public/assets/mixed/bluee.jpg',
+                image: '/assets/mixed/bluee.jpg',
                 category: 'Mixed Flowers'
               }}
               productId="mixed-b"
@@ -291,7 +291,7 @@ const Products = () => {
                 name: 'Mixed Flowers',
                 set: 'Set C',
                 price: 300.00,
-                image: '/public/assets/mixed/green.jpg',
+                image: '/assets/mixed/green.jpg',
                 category: 'Mixed Flowers'
               }}
               productId="mixed-c"
@@ -307,7 +307,7 @@ const Products = () => {
                 name: 'Crochet Flowers',
                 set: 'Set A',
                 price: 750.00,
-                image: '/public/assets/crochet/real.jpg',
+                image: '/assets/crochet/real.jpg',
                 category: 'Crochet Flowers'
               }}
               productId="crochet-a"
