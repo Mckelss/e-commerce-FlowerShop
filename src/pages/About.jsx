@@ -30,19 +30,19 @@ const About = () => {
             <p>Thank you for letting us be part of your special moments. Us KugiHands, are here to help you express what words sometimes cannot.</p>
           </div>
           <div className="about-img">
-            <img src="./src/assets/flowers/f.jpg" />
+            <img src="/src/assets/flowers/f.jpg" />
           </div>
           <div className="about-img">
-            <img src="./src/assets/flowers/d.jpg" />
+            <img src="/src/assets/flowers/d.jpg" />
           </div>
           <div className="about-img">
-            <img src="./src/assets/flowers/c.jpg" />
+            <img src="/src/assets/flowers/c.jpg" />
           </div>
           <div className="about-img">
-            <img src="./src/assets/flowers/bg.jpg" />
+            <img src="/src/assets/flowers/bg.jpg" />
           </div>
           <div className="about-img">
-            <img src="./src/assets/flowers/b.jpg" />
+            <img src="/src/assets/flowers/b.jpg" />
           </div>
         </div>
       </section>
